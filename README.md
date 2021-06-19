@@ -1,5 +1,6 @@
 # kruskal-maze
 # union - find 알고리즘 
+![image](https://user-images.githubusercontent.com/66927687/122629991-b3fcf400-d0fb-11eb-9cf5-cf2380c4aa22.png)
 
 ## Forest의 표현방법
 Tree(수형도)는 cycle이 없는 연결 단순 그래프이다. 위와 같이 Non-connected인 tree component 들의 묶음을 Forest라 하면 적절한 표현일 것이다. 이와 같은 Forest를 컴퓨터가 다룰 수 있도록 어떻게 표현할 수 있을까?
@@ -19,6 +20,7 @@ Forest의 연결상태를 하나의 배열로 나타낼 수 있다. 예를 들�
 root를 찾는 과정은 반복문 또는 재귀함수를 이용해서 직선 y=x에 대해 Picard's method와 유사한 방식을 적용하는 것으로 구현할 수 있을 것이다.
 
 ## Weighted graph의 표현
+![image](https://user-images.githubusercontent.com/66927687/122630003-c119e300-d0fb-11eb-85a1-a2714542473b.png)
 
 일반적인 단순 연결 그래프에서 각 edge에 길이 혹은 비용으로 해석될 수 있는 weight가 주어진 것을 Weighted graph라 한다. 앞에서와 마찬가지로 적당한 규칙을 부여하면 이러한 Weighted graph도 파이썬의 리스트를 이용해 표현할 수 있다.
 
